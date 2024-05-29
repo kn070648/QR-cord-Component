@@ -1,0 +1,55 @@
+/*Colors*/
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(212, 45%, 89%);
+$grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  font-size: 0.937rem;
+  font-family: "Outfit", sans-serif;
+  color: $grayish-blue;
+  background-color: $light-gray;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    min-width: 320px;
+    max-width: 320px;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: $white;
+    text-align: center;
+
+    img {
+      width: 100%;
+      border-radius: 20px;
+      display: block;
+      margin-bottom: 1.5rem;
+    }
+
+    .card-text {
+      h1 {
+        color: $dark-blue;
+        font-size: 1.375rem;
+        margin-bottom: 5px;
+        text-align: center;
+      }
+
+      p {
+        color: $grayish-blue;
+        text-align: center;
+        padding: 1rem;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
