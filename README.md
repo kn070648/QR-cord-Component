@@ -6,6 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -17,6 +18,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 ![](./images/Screenshot.png)
+
+### Links
+
+- Live Site URL: [https://kn070648.github.io/QR-cord-Component/]
 
 ## My process
 
